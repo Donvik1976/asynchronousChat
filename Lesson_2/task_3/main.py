@@ -31,11 +31,11 @@ for key, value in data['items_price'].items():
     data['items_price'][key] = value.encode('utf-8').decode('unicode-escape')
 
 
-with open('file.yaml', 'w') as file:
+with open('file.yaml', 'w', encoding='UTF-8') as file:
     yaml.dump(data, file, default_flow_style=False, allow_unicode=True)
 
 
-with open('file.yaml', 'r') as file:
+with open('file.yaml', 'r', encoding='UTF-8') as file:
     loaded_data = yaml.safe_load(file)
 
 
