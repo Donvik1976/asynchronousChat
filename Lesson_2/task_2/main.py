@@ -20,7 +20,7 @@ def write_order_to_json(item, quantity, price, buyer, date):
         'buyer': buyer,
         'date': date
     }
-    with open('orders.json', 'r+') as file:
+    with open('orders.json', 'r+', encoding='UTF-8') as file:
         content = json.load(file)
         content['orders'].append(order)
         file.seek(0)
