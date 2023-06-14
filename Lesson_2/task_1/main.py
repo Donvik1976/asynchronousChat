@@ -56,7 +56,7 @@ def write_to_csv(csv_file):
     os_prod_list, os_name_list, os_code_list, os_type_list, \
         main_data = get_data(len(files))
 
-    with open(csv_file, 'w', newline='') as file:
+    with open(csv_file, 'w', encoding='UTF-8', newline='') as file:
         writer = csv.writer(file)
         writer.writerows(main_data)
 
