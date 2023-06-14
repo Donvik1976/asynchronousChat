@@ -1,7 +1,7 @@
 {
     "orders": [
         {
-            "item": "принтер",
+            "item": "РїСЂРёРЅС‚РµСЂ",
             "quantity": 10,
             "price": 6700,
             "buyer": "Ivanov",
@@ -11,11 +11,11 @@
             "item": "scaner",
             "quantity": 20,
             "price": 10000,
-            "buyer": "Петров",
+            "buyer": "РџРµС‚СЂРѕРІ",
             "date": "22.08.2022"
         },
         {
-            "item": "копир",
+            "item": "РєРѕРїРёСЂ",
             "quantity": 12,
             "price": 8200,
             "buyer": "Sidorov",
