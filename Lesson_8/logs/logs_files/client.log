@@ -1,0 +1,44 @@
+2023-07-06 15:53:50,664 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: test1
+2023-07-06 15:53:50,693 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: test2
+2023-07-06 15:53:50,755 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: test3
+2023-07-06 15:53:51,167 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2023-07-06 15:53:51,168 DEBUG client.py Вызвана функция create_presence с параметрами ('test1',),{}Из модуля __main__Из функции main()
+2023-07-06 15:53:51,194 DEBUG client.py Сформировано presence сообщение для пользователя test2
+2023-07-06 15:53:51,195 DEBUG client.py Вызвана функция create_presence с параметрами ('test2',),{}Из модуля __main__Из функции main()
+2023-07-06 15:53:51,195 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-06 15:53:51,195 DEBUG client.py Вызвана функция process_ans с параметрами ({'response': 200},),{}Из модуля __main__Из функции main()
+2023-07-06 15:53:51,196 INFO client.py Принят ответ от сервера 200 : OK
+2023-07-06 15:53:51,201 DEBUG client.py Запущены процессы
+2023-07-06 15:53:51,257 DEBUG client.py Сформировано presence сообщение для пользователя test3
+2023-07-06 15:53:51,257 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-06 15:53:51,258 DEBUG client.py Вызвана функция process_ans с параметрами ({'response': 200},),{}Из модуля __main__Из функции main()
+2023-07-06 15:53:51,258 DEBUG client.py Вызвана функция create_presence с параметрами ('test3',),{}Из модуля __main__Из функции main()
+2023-07-06 15:53:51,258 INFO client.py Принят ответ от сервера 200 : OK
+2023-07-06 15:53:51,262 DEBUG client.py Запущены процессы
+2023-07-06 15:53:51,759 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-06 15:53:51,760 DEBUG client.py Вызвана функция process_ans с параметрами ({'response': 200},),{}Из модуля __main__Из функции main()
+2023-07-06 15:53:51,760 INFO client.py Принят ответ от сервера 200 : OK
+2023-07-06 15:53:51,765 DEBUG client.py Запущены процессы
+2023-07-06 15:55:29,513 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1688637329.5133204, 'mess_text': 'Привет'}
+2023-07-06 15:55:29,513 INFO client.py Отправлено сообщение для пользователя test2
+2023-07-06 15:55:29,528 DEBUG client.py Вызвана функция create_message с параметрами (<socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 2011), raddr=('127.0.0.1', 7777)>, 'test1'),{}Из модуля __main__Из функции self._bootstrap_inner()
+2023-07-06 15:55:29,858 INFO client.py Получено сообщение от пользователя test1:
+Привет
+2023-07-06 15:56:32,619 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test2', 'to': 'test3', 'time': 1688637392.6195712, 'mess_text': 'Привет. Как дела?'}
+2023-07-06 15:56:32,620 INFO client.py Отправлено сообщение для пользователя test3
+2023-07-06 15:56:32,621 DEBUG client.py Вызвана функция create_message с параметрами (<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 2012), raddr=('127.0.0.1', 7777)>, 'test2'),{}Из модуля __main__Из функции self._bootstrap_inner()
+2023-07-06 15:56:32,928 INFO client.py Получено сообщение от пользователя test2:
+Привет. Как дела?
+2023-07-06 15:57:18,720 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test3', 'to': 'test2', 'time': 1688637438.7207086, 'mess_text': 'Все хорошо'}
+2023-07-06 15:57:18,721 INFO client.py Отправлено сообщение для пользователя test2
+2023-07-06 15:57:18,722 DEBUG client.py Вызвана функция create_message с параметрами (<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 2013), raddr=('127.0.0.1', 7777)>, 'test3'),{}Из модуля __main__Из функции self._bootstrap_inner()
+2023-07-06 15:57:18,976 INFO client.py Получено сообщение от пользователя test3:
+Все хорошо
+2023-07-06 15:57:35,541 DEBUG client.py Вызвана функция create_exit_message с параметрами ('test1',),{}Из модуля __main__Из функции self._bootstrap_inner()
+2023-07-06 15:57:35,543 INFO client.py Завершение работы по команде пользователя.
+2023-07-06 15:57:35,994 CRITICAL client.py Потеряно соединение с сервером.
+2023-07-06 15:57:35,995 DEBUG client.py Вызвана функция message_from_server с параметрами (<socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 2011), raddr=('127.0.0.1', 7777)>, 'test1'),{}Из модуля __main__Из функции self._bootstrap_inner()
+2023-07-06 15:57:36,045 DEBUG client.py Вызвана функция user_interactive с параметрами (<socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 2011), raddr=('127.0.0.1', 7777)>, 'test1'),{}Из модуля __main__Из функции self._bootstrap_inner()
+2023-07-06 15:58:06,957 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test3', 'to': 'test1', 'time': 1688637486.9570303, 'mess_text': 'Как дела?'}
+2023-07-06 15:58:06,958 INFO client.py Отправлено сообщение для пользователя test1
+2023-07-06 15:58:06,958 DEBUG client.py Вызвана функция create_message с параметрами (<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 2013), raddr=('127.0.0.1', 7777)>, 'test3'),{}Из модуля __main__Из функции self._bootstrap_inner()
