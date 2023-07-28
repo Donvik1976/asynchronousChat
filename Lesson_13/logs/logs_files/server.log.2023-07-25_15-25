@@ -1,0 +1,1 @@
+2023-07-25 15:25:28,598 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'Vic', 'to': 'test1', 'time': 1690277128.4075081, 'mess_text': 'Привет'}
