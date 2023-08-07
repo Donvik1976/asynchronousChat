@@ -1,0 +1,26 @@
+2023-07-30 21:53:10,091 DEBUG server.py Была вызвана функция main c параметрами (), {}. Вызов из модуля __main__
+2023-07-30 21:53:10,094 DEBUG server.py Была вызвана функция config_load c параметрами (), {}. Вызов из модуля __main__
+2023-07-30 21:53:10,095 DEBUG server.py Была вызвана функция arg_parser c параметрами ('7777', ''), {}. Вызов из модуля __main__
+2023-07-30 21:53:10,095 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['server.py']
+2023-07-30 21:53:10,098 DEBUG server.py Аргументы успешно загружены.
+2023-07-30 21:53:10,181 INFO core.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2023-07-30 21:53:20,970 INFO core.py Установлено соедение с ПК ('127.0.0.1', 11793)
+2023-07-30 21:53:20,993 INFO core.py Установлено соедение с ПК ('127.0.0.1', 11794)
+2023-07-30 21:53:20,994 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1690732400.9856806, 'user': {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtFjTsK5TmEo+mB6hhiia\n8ay0Eg4LpC+fZ5/1C2ZxtBTeRzIfgCRfpl+Sc/jo1WMx9nn8UDIoHUstGEbkI8S/\nz7/nE6a1GglMfbSwRvQNu/G9NQP91rPDD7iU2PqpgCrn5gbvHCP96Ft1AxoVK3m3\n+feFbOhPKKgVZTqj479BmMHnQb0nEk+XlqrAcl5kEcK+ovsV5HFrnK+g71N3uGuu\neCULSK+hTZ7xAfFBjZuXxNI+bKeS0RkhUmc1WNpke4RVj3bNWvetoupNov66y9QT\n3AtyDpnHXyFzhOmeT0FcpJKtfRM7ObvZM0JT7XdeIQrzqnve7ZeJwRR1oQRksc5X\n/QIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-07-30 21:53:20,994 DEBUG core.py Start auth process for {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtFjTsK5TmEo+mB6hhiia\n8ay0Eg4LpC+fZ5/1C2ZxtBTeRzIfgCRfpl+Sc/jo1WMx9nn8UDIoHUstGEbkI8S/\nz7/nE6a1GglMfbSwRvQNu/G9NQP91rPDD7iU2PqpgCrn5gbvHCP96Ft1AxoVK3m3\n+feFbOhPKKgVZTqj479BmMHnQb0nEk+XlqrAcl5kEcK+ovsV5HFrnK+g71N3uGuu\neCULSK+hTZ7xAfFBjZuXxNI+bKeS0RkhUmc1WNpke4RVj3bNWvetoupNov66y9QT\n3AtyDpnHXyFzhOmeT0FcpJKtfRM7ObvZM0JT7XdeIQrzqnve7ZeJwRR1oQRksc5X\n/QIDAQAB\n-----END PUBLIC KEY-----'}
+2023-07-30 21:53:20,998 DEBUG core.py Correct username, starting passwd check.
+2023-07-30 21:53:21,001 DEBUG core.py Auth message = {'response': 511, 'bin': 'c6655c4fc4c12198591eab5eb0c1e43e4b7c8e76127f0eb84c97abc484cf28b1b17fa46fcc7e5817761ee39965b7e2f78a0d6c8bc793d53c80dc4d51c3308732'}
+2023-07-30 21:53:21,526 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1690732401.0026486, 'account_name': 'test2'}
+2023-07-30 21:53:21,527 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1690732401.0156236, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA18dZuLHe3dQGByZOIFg5\n2uGMRQeSYqA0HwPSTn9i5wCTTRW51bstb07NXqHnUhGzVG7LpC6WhvNgHvPNYdyc\nC94XlC1bfdjwYU2QOvV42bMr+GdEwjuPGvIPbgBD+OUPQkJBTlnuf4sO1NpXhEgS\nvL+BXONCP9vklAJPvW67IrwP59qz2v4qKeFC9Bnjaa5ovbDlxEzAbF9Q4fJuT0rg\njKwPT4o2+pkDln/ear70XPLaMPLzHMaQB1KBsU53PiZEIiJi6uIlguK8YQwjcFbh\nBtar3j8CiTSUKFZ+0ilhh41u8WnN9C9hjK0QESZMM/JIRXf8EFH5A4iBSEDzHGYg\n9wIDAQAB\n-----END PUBLIC KEY-----'}}
+2023-07-30 21:53:21,527 DEBUG core.py Start auth process for {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA18dZuLHe3dQGByZOIFg5\n2uGMRQeSYqA0HwPSTn9i5wCTTRW51bstb07NXqHnUhGzVG7LpC6WhvNgHvPNYdyc\nC94XlC1bfdjwYU2QOvV42bMr+GdEwjuPGvIPbgBD+OUPQkJBTlnuf4sO1NpXhEgS\nvL+BXONCP9vklAJPvW67IrwP59qz2v4qKeFC9Bnjaa5ovbDlxEzAbF9Q4fJuT0rg\njKwPT4o2+pkDln/ear70XPLaMPLzHMaQB1KBsU53PiZEIiJi6uIlguK8YQwjcFbh\nBtar3j8CiTSUKFZ+0ilhh41u8WnN9C9hjK0QESZMM/JIRXf8EFH5A4iBSEDzHGYg\n9wIDAQAB\n-----END PUBLIC KEY-----'}
+2023-07-30 21:53:21,531 DEBUG core.py Correct username, starting passwd check.
+2023-07-30 21:53:21,533 DEBUG core.py Auth message = {'response': 511, 'bin': 'fe72442dc40c01a9ce3cf58c956d2c78528db4b350f7970dd73045038cdd66c34e2c636b24c7a3130e0ea9865cf3a87c6dba9ce4898bede70ef04750277901af'}
+2023-07-30 21:53:22,054 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1690732401.5498297, 'user': 'test2'}
+2023-07-30 21:53:22,065 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1690732401.534118, 'account_name': 'test1'}
+2023-07-30 21:53:22,567 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1690732402.1044261, 'user': 'test1'}
+2023-07-30 21:53:30,080 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1690732409.3904536, 'account_name': 'test1'}
+2023-07-30 21:53:35,086 DEBUG core.py Разбор сообщения от клиента : {'action': 'pubkey_need', 'time': 1690732414.5017715, 'account_name': 'test2'}
+2023-07-30 21:53:56,103 DEBUG core.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1690732435.3355033, 'account_name': 'test1'}
+2023-07-30 21:53:56,103 INFO core.py Клиент ('127.0.0.1', 11794) отключился от сервера.
+2023-07-30 21:53:57,124 DEBUG core.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1690732436.7087293, 'account_name': 'test2'}
+2023-07-30 21:53:57,124 INFO core.py Клиент ('127.0.0.1', 11793) отключился от сервера.
